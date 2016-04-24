@@ -1,0 +1,37 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WSN Lecture
+% Assignment 2
+% Topology A
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Channel parameters
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+PATH_LOSS_EXPONENT = 2;
+
+D0 = 1.0;
+PL_D0 = 77.5;
+
+SHADOWING_STANDARD_DEVIATION = 0;
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Radio parameters
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+NOISE_FLOOR = -105.0;
+
+S11 = 0;
+S12 = 0;
+S21 = 0;
+S22 = 0;
+
+WHITE_GAUSSIAN_NOISE = 1;
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Physical layout parameters
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TOPOLOGY = 4;
+%GRID_UNIT = 20;
+%NUMBER_OF_NODES = 4;
+TOPOLOGY_FILE = linetopo;
